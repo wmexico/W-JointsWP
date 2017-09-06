@@ -41,10 +41,3 @@ require_once(get_template_directory().'/assets/translation/translation.php');
 
 // Customize the WordPress admin
 // require_once(get_template_directory().'/assets/functions/admin.php');
-
-function modify_jquery_version() {
-    wp_deregister_script('jquery');
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-2.2.4.min.js', false, '2.2.4');
-    wp_enqueue_script('jquery');
-}
-add_action('init', 'modify_jquery_version');

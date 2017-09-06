@@ -2,6 +2,11 @@
 function site_scripts() {
   global $wp_styles; // Call global $wp_styles variable to add conditional wrapper around ie stylesheet the WordPress way
 
+    // w-mexico jquery version
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', 'https://code.jquery.com/jquery-2.2.4.min.js', false, '2.2.4');
+    wp_enqueue_script('jquery');
+
     // Load What-Input files in footer
     wp_enqueue_script( 'what-input', get_template_directory_uri() . '/vendor/what-input/dist/what-input.min.js', array(), '', true );
 
