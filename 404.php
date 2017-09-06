@@ -4,21 +4,18 @@
 
 		<div id="inner-content" class="row">
 	
-			<main id="main" class="large-8 medium-8 columns" role="main">
+			<main id="main" class="large-10 medium-10 columns" role="main">
 
 				<article id="content-not-found">
 				
 					<header class="article-header">
-						<h1><?php _e( 'No se encontró la información', 'jointswp' ); ?></h1>
+						<h1>Página no encontrada</h1>
 					</header> <!-- end article header -->
 			
 					<section class="entry-content">
-						<p><?php _e( 'La dirección URL que se utilizó no regresó información', 'jointswp' ); ?></p>
+						<p>No se pudo encontrar información en esta dirección URL</p>
+						<p style="margin-top:80px"><a href="/">Regresar a Página principal</a></p>
 					</section> <!-- end article section -->
-
-					<section class="search">
-					    <p><?php get_search_form(); ?></p>
-					</section> <!-- end search section -->
 			
 				</article> <!-- end article -->
 	
