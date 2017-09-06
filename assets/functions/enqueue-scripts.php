@@ -4,7 +4,7 @@ function site_scripts() {
 
     // w-mexico jquery version
     wp_deregister_script('jquery');
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-2.2.4.min.js', false, '2.2.4');
+    wp_register_script('jquery', '//code.jquery.com/jquery-2.2.4.min.js', false, null);
     wp_enqueue_script('jquery');
 
     // Load What-Input files in footer
@@ -27,7 +27,7 @@ function site_scripts() {
     wp_enqueue_style( 'foundation-css', get_template_directory_uri() . '/vendor/foundation/css/foundation.min.css', array(), '', 'all' );
 
     // w-mexico stylesheets
-    wp_enqueue_style( 'font-awesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), '', 'all' );
+    wp_enqueue_style( 'font-awesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), null, 'all' );
 
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
