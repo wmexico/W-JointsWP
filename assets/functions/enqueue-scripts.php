@@ -8,6 +8,10 @@ function site_scripts() {
     // Adding Foundation scripts file in the footer
     wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/vendor/foundation/js/foundation.min.js', array( 'jquery' ), '6.4.1', true );
 
+    // w-mexico scripts
+    wp_enqueue_script( 'validate-js', '//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js', array('jquery'), null, true );
+    wp_enqueue_script( 'validate-msg-es-js', get_template_directory_uri(). '/assets/js/jquery.validate.messages_es.js', array('jquery', 'validate-js'), '', true );
+
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-js', get_template_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), '', true );
 
@@ -16,6 +20,9 @@ function site_scripts() {
 
 	// Select which grid system you want to use (Foundation Grid by default)
     wp_enqueue_style( 'foundation-css', get_template_directory_uri() . '/vendor/foundation/css/foundation.min.css', array(), '', 'all' );
+
+    // w-mexico stylesheets
+    wp_enqueue_style( 'font-awesome-css', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), '', 'all' );
 
     // Register main stylesheet
     wp_enqueue_style( 'site-css', get_template_directory_uri() . '/assets/css/style.css', array(), '', 'all' );
