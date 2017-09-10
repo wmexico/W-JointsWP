@@ -15,7 +15,7 @@ function site_scripts() {
 
     // w-mexico scripts
     wp_enqueue_script( 'validate', '//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js', array('jquery'), null, true );
-    wp_enqueue_script( 'validate-msg-es', get_template_directory_uri(). '/assets/js/jquery.validate.messages_es.js', array('jquery', 'validate-js'), '1.1', true );
+    wp_enqueue_script( 'validate-msg-es', get_template_directory_uri(). '/assets/js/jquery.validate.messages_es.js', array('jquery', 'validate'), '1.1', true );
 
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), '', true );
