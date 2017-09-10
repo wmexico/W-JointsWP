@@ -8,14 +8,14 @@ function site_scripts() {
     wp_enqueue_script('jquery');
 
     // Load What-Input files in footer
-    wp_enqueue_script( 'what-input', get_template_directory_uri() . '/vendor/what-input/dist/what-input.min.js', array(), '', true );
+    wp_enqueue_script( 'what-input', get_template_directory_uri() . '/vendor/what-input/dist/what-input.min.js', array(), '5.0.1', true );
 
     // Adding Foundation scripts file in the footer
-    wp_enqueue_script( 'foundation', get_template_directory_uri() . '/vendor/foundation/js/foundation.min.js', array( 'jquery' ), '6.4.1', true );
+    wp_enqueue_script( 'foundation', get_template_directory_uri() . '/vendor/foundation/js/foundation.min.js', array( 'jquery' ), '6.4.2', true );
 
     // w-mexico scripts
     wp_enqueue_script( 'validate', '//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js', array('jquery'), null, true );
-    wp_enqueue_script( 'validate-msg-es', get_template_directory_uri(). '/assets/js/jquery.validate.messages_es.js', array('jquery', 'validate-js'), '', true );
+    wp_enqueue_script( 'validate-msg-es', get_template_directory_uri(). '/assets/js/jquery.validate.messages_es.js', array('jquery', 'validate-js'), '1.1', true );
 
     // Adding scripts file in the footer
     wp_enqueue_script( 'site-scripts', get_template_directory_uri() . '/assets/js/scripts.js', array( 'jquery' ), '', true );
@@ -24,7 +24,7 @@ function site_scripts() {
     wp_enqueue_style( 'motion-ui', get_template_directory_uri() . '/vendor/motion-ui/dist/motion-ui.min.css', array(), '', 'all' );
 
 	// Select which grid system you want to use (Foundation Grid by default)
-    wp_enqueue_style( 'foundation', get_template_directory_uri() . '/vendor/foundation/css/foundation.min.css', array(), '', 'all' );
+    wp_enqueue_style( 'foundation', get_template_directory_uri() . '/vendor/foundation/css/foundation.min.css', array(), '6.4.2', 'all' );
 
     // w-mexico stylesheets
     wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', array(), null, 'all' );
