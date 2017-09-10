@@ -2,7 +2,7 @@
  * Translated default messages for the jQuery validation plugin.
  * Locale: ES (Spanish; Español)
  */
-$.extend($.validator.messages, {
+jQuery.extend(jQuery.validator.messages, {
 	required: "Este campo es obligatorio.",
 	remote: "Por favor complete este campo.",
 	email: "Por favor escriba una dirección de correo válida.",
