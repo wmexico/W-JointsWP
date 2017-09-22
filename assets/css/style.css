@@ -266,6 +266,82 @@ PLUGIN STYLES
   list-style: none outside none;
   margin: 0; }
 
+/*********************
+W-MEXICO STYLES
+*********************/
+/*!
+ *  by Georgel@w-mexico.net
+ */
+@charset 'UTF-8';
+label{color:#222}
+a:focus{outline:0}
+a{text-decoration:none;}
+a:hover{text-decoration:none}
+*::-webkit-input-placeholder {color:#CCC}
+*:-moz-placeholder {color:#CCC}
+*::-moz-placeholder {color:#CCC}
+*:-ms-input-placeholder {color:#CCC}
+table.nofo {
+	background:none;
+	border:0;
+	margin:0;
+	padding:0;
+}
+table.nofo tr {background:none}
+table.nofo td {
+	line-height:1;
+	color:inherit;
+	font-size:inherit;
+	margin:0;
+	padding:0;
+}
+.none{display:none}
+.a100{display:block;width:100%;height:100%;text-indent:-9999px}
+.w100{width:100%}
+.mt10{margin-top:10px !important}
+.rel{position:relative}
+.abs{position:absolute}
+.fs10{font-size:10px}
+.fs11{font-size:11px}
+.fs12{font-size:12px}
+.fs13{font-size:13px}
+.fs14{font-size:14px}
+.fs15{font-size:15px}
+.fs16{font-size:16px}
+.fs18{font-size:18px}
+.fs20{font-size:20px}
+.fs25{font-size:25px}
+.fs30{font-size:30px}
+.bold{font-weight:bold}
+.italic{font-style:italic}
+.espacio{padding-bottom:30px}
+.centro{text-align:center}
+.tleft{text-align:left}
+.tright{text-align:right}
+.tjust{text-align:justify}
+.error{color:red}
+.responsive-img img{
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+}
+.gris{color:#999999}
+.blanco{color:#FFFFFF}
+.negro{color:#000000}
+.rojo{color:red}
+.xlabel{
+	color: #222;
+    display: block;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.link-a a{display:block;width:100%;height:100%;text-indent:-9999px}
+ul.l-mb>li{margin-bottom:5px}
+
+#content{min-height:450px}
+
 /******************************************************************
 
 Stylesheet: Retina Screens & Devices Stylesheet
