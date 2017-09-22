@@ -1,1 +1,1 @@
-W-mexico -> Foundation 6 WP Theme
+W-Mexico -> Foundation 6 WP Theme
