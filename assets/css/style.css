@@ -281,14 +281,18 @@ a:hover{text-decoration:none}
 *:-moz-placeholder {color:#CCC}
 *::-moz-placeholder {color:#CCC}
 *:-ms-input-placeholder {color:#CCC}
-table.plain {
-	background:none;
+table.nof {
 	border:0;
 	margin:0;
 	padding:0;
+	background:none;
 }
-table.plain tr {background:none}
-table.plain td {
+table.nof tbody, table.nof tfoot, table.nof thead{
+	border:0;
+	background:none;
+}
+table.nof tr {background:none}
+table.nof td {
 	line-height:1;
 	color:inherit;
 	font-size:inherit;
