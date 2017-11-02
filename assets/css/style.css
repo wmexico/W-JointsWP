@@ -344,7 +344,7 @@ table.nof td {
 .link-a a{display:block;width:100%;height:100%;text-indent:-9999px}
 ul.l-mb>li{margin-bottom:5px}
 
-#content{min-height:450px}
+#content, #contenido{min-height:450px}
 
 /******************************************************************
 
