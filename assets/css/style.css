@@ -281,23 +281,23 @@ a:hover{text-decoration:none}
 *:-moz-placeholder {color:#CCC}
 *::-moz-placeholder {color:#CCC}
 *:-ms-input-placeholder {color:#CCC}
-table.nof {
-	border:0;
+.nof table, table.nof {
+	width:auto;
 	margin:0;
 	padding:0;
 	background:none;
 }
-table.nof tbody, table.nof tfoot, table.nof thead{
+.nof tbody, .nof tfoot, .nof thead{
 	border:0;
 	background:none;
 }
-table.nof tr {background:none}
-table.nof td {
+.nof tbody tr:nth-child(even) {background: none}
+.nof tbody td {
 	line-height:1;
 	color:inherit;
 	font-size:inherit;
 	margin:0;
-	padding:0;
+	padding:1px;
 }
 .none{display:none}
 .a100{display:block;width:100%;height:100%;text-indent:-9999px}
